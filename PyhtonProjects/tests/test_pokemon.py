@@ -12,4 +12,4 @@ def test_status_code():
 
 def test_part_of_response():
     response_get = requests.get(url = f'{URL}/trainers', params = {'trainer_id' : TRAINER_ID})
-    assert response_get.json()['data'][0]['trainer_name'] == 'Пюрешка'
+    assert response_get.json()['data'][0]['trainer_name'] == 'jenyaH8r'
